@@ -1,0 +1,44 @@
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane > .viewport {
+-fx-background-color: transparent;
+}
+
+.scroll-pane > .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane  .scroll-bar:vertical .track {
+    visibility: hidden;
+}
+
+
+.scroll-pane  .scroll-bar:vertical .track-background{
+    visibility: hidden;
+}
+
+.scroll-pane > .scroll-bar:vertical > .track{
+    visibility: hidden;
+}
+
+.scroll-pane > .scroll-bar:vertical > .thumb{
+-fx-background-color: #f83e3e;
+
+}
+
+.scroll-pane > .scroll-bar:vertical > .increment-button{
+    visibility: hidden;
+}
+
+.scroll-pane > .scroll-bar:vertical > .increment-button > .increment-arrow {
+visibility: hidden;
+}
+.scroll-pane > .scroll-bar:vertical > .decrement-button {
+    visibility: hidden;
+}
+
+.scroll-pane > .scroll-bar:vertical > .decrement-button > .decrement-arrow {
+    visibility: hidden;
+}
